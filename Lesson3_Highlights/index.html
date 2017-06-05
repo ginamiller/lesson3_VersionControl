@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gina Miller</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">LIS 2360 - Web Application Development</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#topic1">Highlight #1</a>
+                    </li>
+                    <li>
+                        <a href="#topic2">Hightlight #2</a>
+                    </li>
+                    <li>
+                        <a href="#topic3">Hightlight #3</a>
+                    </li>
+                    <li>
+                        <a href="#topic4">Hightlight #4</a>
+                    </li>
+                    <li>
+                        <a href="#topic5">Hightlight #5</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h2>Lesson 3 Highlights</h2>
+                <h3>Gina Miller</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="topic1">
+            <img class="featurette-image img-circle img-responsive pull-right" src="_img/vc.jpg">
+            <h2 class="featurette-heading">Highlight #1
+                <span class="text-muted">Version Control</span>
+            </h2>
+            <p class="lead">Version Control is a system that archives all changes made to a file, or group of files, over a period of time. You later have the ability to recall a particular version of your file(s). Team members can “check out” a file, make any necessary changes and “check back in” the file. Checking back in a file is also called committing. A VCS also solves the problem of file sharing.
+            </p>
+
+            <p class="lead">A version control system logs a few things automatically:
+                <ol>
+                    <li>Who made changes to the file</li>
+                    <li>When the changes were made</li>
+                    <li>Tells what new (or different) changes have been made</li>
+                    <li>Merges the changes to the file</li>
+                </ol>
+            </p>
+            <p class="lead">There are also several benefits to using a version control system; such as:
+                <ol>
+                    <li>Files cannot be written over</li>
+                    <li>The common repository holds the most up to date files</li>
+                    <li>Team members can work concurrently on the same file without any issues</li>
+                    <li>If need be, you can return to an older version of the file</li>
+                    <li>Will backup files so your work is never lost (or at least can be very easily recovered)</li>
+                </ol>
+            </p>
+            <p class="lead">In addition, you can typically receive all of the mentioned benefits for a very low cost.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="topic2">
+            <img class="featurette-image img-circle img-responsive pull-left" src="_img/vcs.jpg">
+            <h2 class="featurette-heading">Highlight #2
+                <span class="text-muted">Version Control Systems</span>
+            </h2>
+            
+            <p class="lead">
+                It is highly recommended to use a Version Control System (VCS) if you are a professional that would like to keep every version of an image, file or layout. A version control system can be local, centralized or distributed.
+            </p>
+            <p class="lead">
+                A common version control method used by many is to copy files from one directory into another because it is easy to do. This method is disposed to countless errors though. It is very easy to forget which directory you are in and by doing so, you may write or copy over a file that you did not mean to. In order to combat this issue, programmers created local VCSs that had a simple database; in doing so, this kept all of the file changes under revision control. Revision control works by keeping all differences between files (or patch sets) in a special format on file. The patches then can all be added up and can re-create what a file looked like at any point in time.
+            </p>
+            <p class="lead">
+                Central version control systems were created for users to collaborate with developers on other systems. These systems have a single server that holds all versions of the files and allows clients to check out files from a centralized location. There are many advantages and disadvantages to using a CVCS. One advantage is everyone working on a project, for the most, knows what another team member is working on. A major disadvantage is that if the single server goes down, no one can collaborate or save versioned changes.
+            </p>
+            <p class="lead">
+                In a distributed version control system, the user does not view the latest file version but a new copy of the file is created. Therefore, if the server dies, any file can be copied back up to the server and restored.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="topic3">
+            <img class="featurette-image img-circle img-responsive pull-right" src="_img/git-basics.jpg">
+            <h2 class="featurette-heading">Highlight #3
+                <span class="text-muted">Git Basics</span>
+            </h2>
+            <p class="lead">
+                Even though the user interface is similar to other VCSs, Git stores and reviews data much differently. Most VCSs think of the data they keep as a set of records and the changes made over time to each specific file. Git doesn’t see its data in this capacity; instead, Git views its data like a series of snapshots of small filesystems. When a file is saved or committed with Git, Git takes a photo of the files and stores a reference to that photo. If a file remains unchanged, Git does not store the file again but a link to the previous changed file. Therefore, Git stores its data like a stream of photos.
+            </p>
+            <p class="lead">
+                Most processes in Git only need local files and resources to operate. This makes Git functions extremely powerful as you will have full project history on your local computer and there will be very little that you can’t do while you are offline. It is impossible for changes to be made to a file or directory without Git knowing because everything is check-summed before it is stored. Git uses SHA-1 hash in order to checksum files.
+            </p>
+            <p class="lead">
+                Git has three main stages of your files: committed, modified, and staged. When a file is committed, it means that only the data is safely stored in your local database. When a file is modified, it means that changes have been made to a file but not committed to the database yet. When a file is staged, it means that a file is marked modified in its current state to go into your next commit snapshot.
+            </p>
+            <p class="lead">
+                There are also three sections of a Git project: the Git directory, the working tree and the staging area. The Git directory stores the metadata and object database of your project. The working tree pulls out files from the database for your use or modify them on your local disk. The staging area is a file that stores information about what will go in during your next commit.
+            </p>
+        </div>
+        
+        <hr class="featurette-divider">
+        
+       <!-- Fourth Featurette -->
+        <div class="featurette" id="topic4">
+            <img class="featurette-image img-circle img-responsive pull-left" src="_img/git-repository.jpg">
+            <h2 class="featurette-heading">Highlight #4
+                <span class="text-muted">Git Repository</span>
+            </h2>
+            <p class="lead">
+                There are two ways to get a Git project:
+                <ol>
+                    <li>Take an existing project and import into Git</li>
+                    <li>Clone an existing Git repository from another server</li>
+                </ol>
+            </p>
+            <p class="lead">
+                To track an existing project, you will have to go to the project’s directory. In order to do so, you will have to look at what system you are running, type in the path to your repository and then type in: “$ git init”. This will create a subdirectory named “.git”. The new sub directory will contain all the necessary repository files. To start version-controlling existing files, begin tracking the files and you should do an initial commit. This can be accomplished with Git add commands. The commands will specify the files you want to track and will be followed by a git commit.
+            </p>
+            <p class="lead">
+                To make a copy of an existing Git repository, you will use the git clone command. By using this command, every version of every document for the history of the project is pulled down from the server. This is great if you ever get in a jam and your server disk gets corrupted. If this were to happen, you would be able to use any of the copies on any client to get the server back to the state it was in before it became corrupted.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Fifth Featurette -->
+        <div class="featurette" id="topic5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="_img/repository-changes.jpg">
+            <h2 class="featurette-heading">Highlight #5
+                <span class="text-muted">Changes to the Repository</span>
+            </h2>
+            <p class="lead">
+                After you make changes to a file, you will have to commit snapshots of the changes to your repository each time you reach a state that you want to record. Each file in your repository can be in one of two states: tracked or untracked. The files that are in your last snapshot are tracked files. All other files are considered untracked as they are not in your last snapshot or in your staging area.
+            </p>
+            <p class="lead">
+                The git status command is the main tool that is used to determine was state your files are in. In order to track a new file, you will have to use the command: git add. When you make changes to a file that you have already staged, they will appear under a section called “Changes not staged for commit”. In order to stage it, you must run the git add command again. If there are files in your directory that you want Git to ignore, it is a good idea to run a .gitignore command. When you want to know what exactly you have changed in a file, which lines have been added and removed, you can use a git diff command. When you are ready to commit your files to your respository, you want to run a git commit command. If there is a file that you no longer want to track, then you will run a git rm command and the next time you commit, the file will be removed and no longer tracked.
+            </p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
